@@ -1,0 +1,34 @@
+.element-jake {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    & span {
+        content: "";
+    width: 180px;
+    height: 50px;
+    border: 3px solid #C2C2C2;
+    background-color: #fdf2d2;
+    border-radius: 10px 10px 0Px 35Px;
+    position: absolute;
+    margin-left: -265px;
+    margin-top: -19px;
+    color: #000;
+    font-family: pixel;
+    }
+}
+span::before {
+    content: "";
+    width: 11px;
+    height: 19px;
+    border-left: 3px solid #C2C2C2;
+    border-right: 2px solid #C2C2C2;
+    background-color: #fdf2d2;
+    position: absolute;
+    margin-left: 133px;
+    margin-top: 50px;
+    border-radius: 4px 0px 0px 40px;
+}
+
+.element-jake-hide {
+    display: none;
+}

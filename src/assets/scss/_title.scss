@@ -1,0 +1,13 @@
+h1 {
+        font-family: "isaac";
+        font-size: 100px;
+        text-align: center;
+        transition-property: color;
+        transition-duration: 4s;
+        margin: 0;
+        
+    }
+
+h1:hover {
+    color: #fbc02d;
+}
